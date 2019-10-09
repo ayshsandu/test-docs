@@ -30,17 +30,17 @@ copyright: WSO2 Identity Server - Documentation
 
 # Configuration
 theme:
-  name: material
-  palette:
-    primary: deep-orange
-    accent: deep-orange
-  custom_dir: theme/material
-  logo: images/logo.svg
-  favicon: images/favicon.png
-  highlightjs: true
-  feature:
-    tabs: true
-  language: 'en'
+ name: material
+ palette:
+   primary: deep-orange
+   accent: deep-orange
+ custom_dir: theme/material
+ logo: images/logo.svg
+ favicon: images/favicon.png
+ highlightjs: true
+ feature:
+   tabs: true
+ language: 'en'
   
 # Navigation
 nav:
