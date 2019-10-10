@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", function() {
 // 
 // var docSetUrl = window.location.origin + '/' + docSetLang;
 
-  var REL_BASE_URL = "..";
+  var REL_BASE_URL = ".";
   var ABS_BASE_URL = normalizePath(window.location.pathname + "/" +
                                    REL_BASE_URL);
   var CURRENT_VERSION = ABS_BASE_URL.split("/").pop();
