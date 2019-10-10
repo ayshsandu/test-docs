@@ -23,6 +23,16 @@ window.addEventListener("DOMContentLoaded", function() {
 
   // `base_url` comes from the base.html template for this theme.
   // var REL_BASE_URL = base_url;
+  
+//   var pageHeader = document.getElementById('page-header');
+// var docSetLang = pageHeader.getAttribute('data-lang');
+// 
+// (window.location.pathname.split('/')[1] !== docSetLang) ? 
+//     docSetLang = '' :
+//     docSetLang = docSetLang + '/';
+// 
+// var docSetUrl = window.location.origin + '/' + docSetLang;
+
   var REL_BASE_URL = ".";
   var ABS_BASE_URL = normalizePath(window.location.pathname + "/" +
                                    REL_BASE_URL);
