@@ -62,7 +62,7 @@ window.addEventListener("DOMContentLoaded", function() {
     container.id = "version-selector";
     container.appendChild(select);
 
-    var title = document.querySelector("md-flex__ellipsis md-header-nav__title");
+    var title = document.querySelector(".md-flex__ellipsis.md-header__version-select");
     var height = window.getComputedStyle(title).getPropertyValue("height");
     container.style.height = height;
 
