@@ -52,7 +52,7 @@ window.addEventListener("DOMContentLoaded", function() {
   }
 
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "versions.json");
+  xhr.open("GET", "../../versions.json");
   xhr.onload = function() {
     var versions = JSON.parse(this.responseText);
 
